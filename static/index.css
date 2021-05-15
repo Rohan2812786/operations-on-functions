@@ -1,0 +1,53 @@
+.gradient-red {
+    background-color: #fc5296;
+    background-image: linear-gradient(315deg, #fc5296 0%, #f67062 74%);
+}
+
+.mt-4 {
+    margin-top: 1em !important;
+}
+
+.vh-100 {
+    height: 300px;
+}
+
+@media only screen and (max-width: 992px) {
+    .flex-row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .contents {
+        margin-top: 2em;
+    }
+    
+    .down {
+        position: relative;
+        top: 6px;
+        margin-right: 0.4em !important;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .desktop-pad {
+        padding-left: 300px !important;
+    }
+    .invisible-top {
+        top: 65px !important;
+    }
+}
+
+.sidenav-fixed {
+    position: static;
+}
+
+.card {
+    border-radius: 2em;
+}
+
+span {
+    font-size: 1.5em;
+}
